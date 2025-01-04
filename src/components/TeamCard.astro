@@ -1,0 +1,24 @@
+---
+interface Props {
+  id: number;
+  name: string;
+  img: string;
+  created_at: number;
+}
+
+const { id, name, img, created_at } = Astro.props
+---
+
+<div data-key={id} class="bg-slate-50 rounded-lg shadow-md p-6 my-6 text-center flex flex-col items-center justify-between w-36 lg:w-64">
+  <img src=`teams/${img}` alt={name} loading="lazy" class="w-24 lg:w-48 aspect-square object-contain mb-4 transition duration-500">
+  <h3 class="text-md lg:text-xl mb-2">{name}</h3>
+  <p class="text-md lg:text-base text-gray-700">{created_at}</p>
+</div>
+
+<style>
+  div:hover{
+    img {
+      transform: scale(1.1);
+    }
+  }
+</style>

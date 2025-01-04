@@ -1,0 +1,42 @@
+<section class="w-full flex flex-col items-center justify-center font-primary text-white lg:gap-y-4 bg-primary shadow-letter py-12 lg:py-32" id="start-event-container">
+  <span class="text-xl lg:text-6xl">LA FIESTA COMIENZA EN</span>
+  <p id="count" class="text-3xl lg:text-8xl"></p>
+</section>
+
+<style>
+  .shadow-letter {
+    text-shadow: 0 2px 2px rgba(text-xl0, 0, 0, 0.5);
+  }
+  @media (min-width: 1024px){
+    .shadow-letter {
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
+</style>
+
+<script type="module" is:inline>
+  const targetDate = new Date('January 30, 2025 00:00:00').getTime();
+  const startEventContainer = document.getElementById('start-event-container');
+
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById('count').innerHTML = `${days < 10 ? `0${days}` : days }d ${hours < 10 ? `0${hours}` : hours}h ${minutes < 10 ? `0${minutes}` : minutes}m ${seconds < 10 ? `0${seconds}` : seconds}s`;
+
+    if (distance < 0) {
+      clearInterval(countdownInterval);
+      startEventContainer.innerHTML = `
+        <span class="text-xl lg:text-6xl py-[18px] py-14">COMENZÓ LA FIESTA!</span>
+      `;
+    }
+  }
+
+  const countdownInterval = setInterval(updateCountdown, 1000);
+  updateCountdown();
+</script>

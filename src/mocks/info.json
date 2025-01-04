@@ -1,0 +1,118 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Universitario",
+      "img": "universitario.webp",
+      "created_at": 1924
+    },
+    {
+      "id": 2,
+      "name": "Sporting Cristal",
+      "img": "sporting-cristal.webp",
+      "created_at": 1955
+    },
+    {
+      "id": 3,
+      "name": "FC Melgar",
+      "img": "melgar.webp",
+      "created_at": 1915
+    },
+    {
+      "id": 4,
+      "name": "Alianza Lima",
+      "img": "alianza-lima.webp",
+      "created_at": 1901
+    },
+    {
+      "id": 5,
+      "name": "Cusco FC",
+      "img": "cusco-fc.webp",
+      "created_at": 2009
+    },
+    {
+      "id": 6,
+      "name": "Cienciano",
+      "img": "cienciano.webp",
+      "created_at": 1901
+    },
+    {
+      "id": 7,
+      "name": "Atlético Grau",
+      "img": "atletico-grau.webp",
+      "created_at": 1919
+    },
+    {
+      "id": 8,
+      "name": "ADT",
+      "img": "adt.webp",
+      "created_at": 1929
+    },
+    {
+      "id": 9,
+      "name": "Alianza Atlético",
+      "img": "alianza-atletico.webp",
+      "created_at": 1920
+    },
+    {
+      "id": 10,
+      "name": "Los Chankas",
+      "img": "los-chankas.webp",
+      "created_at": 1989
+    },
+    {
+      "id": 11,
+      "name": "Sport Huancayo",
+      "img": "sport-huancayo.webp",
+      "created_at": 2008
+    },
+    {
+      "id": 12,
+      "name": "Deportivo Garcilazo",
+      "img": "deportivo-garcilazo.webp",
+      "created_at": 1957
+    },
+    {
+      "id": 13,
+      "name": "Sport Boys",
+      "img": "sport-boys.webp",
+      "created_at": 1927
+    },
+    {
+      "id": 14,
+      "name": "Comerciantes Unidos",
+      "img": "comerciantes-unidos.webp",
+      "created_at": 2002
+    },
+    {
+      "id": 15,
+      "name": "UTC",
+      "img": "utc.webp",
+      "created_at": 1964
+    },
+    {
+      "id": 16,
+      "name": "Alianza Universidad",
+      "img": "alianza-universidad.webp",
+      "created_at": 1939
+    },
+    {
+      "id": 17,
+      "name": "Juan Pablo II",
+      "img": "juan-pablo.webp",
+      "created_at": 2015
+    },
+    {
+      "id": 18,
+      "name": "Ayacucho FC",
+      "img": "ayacucho-fc.webp",
+      "created_at": 2008
+    },
+    {
+      "id": 19,
+      "name": "Deportivo Binacional",
+      "img": "deportivo-binacional.webp",
+      "created_at": 2010
+    }
+  ]
+}
