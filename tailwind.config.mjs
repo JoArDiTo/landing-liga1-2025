@@ -7,6 +7,8 @@ export default {
 				'primary': '#e82739'
 			},
 			backgroundImage: {
+				"primary-found": "url(/primary_bg.png)",
+				"counter-found": "url(/counter_bg.jpg)",
         "footer-found": "url(/footer_bg.webp)",
       },
 			fontFamily: {

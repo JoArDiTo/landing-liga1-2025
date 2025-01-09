@@ -1,4 +1,4 @@
-<section class="w-full flex flex-col items-center justify-center font-primary text-white lg:gap-y-4 bg-primary shadow-letter py-12 lg:py-32" id="start-event-container">
+<section class="w-full flex flex-col items-center justify-center font-primary text-white lg:gap-y-4 bg-primary shadow-letter py-12 lg:py-32 bg-counter-found bg-cover bg-center bg-no-repeat relative z-10" id="start-event-container">
   <span class="text-xl lg:text-6xl">LA FIESTA COMIENZA EN</span>
   <p id="count" class="text-3xl lg:text-8xl"></p>
 </section>
@@ -11,6 +11,15 @@
     .shadow-letter {
       text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
     }
+  }
+
+  section::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(232, 39, 57, .60);
+    z-index: -1;
   }
 </style>
 

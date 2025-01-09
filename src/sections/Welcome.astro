@@ -1,8 +1,27 @@
-<section class="w-full py-4 lg:py-8 flex flex-col items-center justify-center max-w-6xl px-6 font-primary">
-  <img class="w-full rounded-xl object-contain" src="/imageWelcome.jpg" alt="">
-  <h1 class="text-3xl lg:text-5xl font-bold text-center mt-4 lg:mt-8 pt-5">TRANSMISIÓN POR</h1>
-  <div class="flex flex-col lg:flex-row items-center justify-center mt-4 lg:mt-8 gap-x-12 gap-y-6 pb-12">
-    <img class="w-56 lg:w-72" src="/l1max-logo.webp" alt="Logo de L1MAX">
-    <img class="w-56 lg:w-72" src="/golperu-logo.webp" alt="Logo de GOLPERU">
+---
+import Facebook from '@icons/Facebook.astro'
+import Instagram from '@icons/Instagram.astro'
+import X from '@icons/X.astro'
+import Youtube from '@icons/Youtube.astro'
+---
+
+<section class="w-full py-4 lg:py-8 flex flex-col items-center justify-center max-w-6xl px-6 font-primary mb-12">
+  <h1 class="text-3xl lg:text-6xl font-bold text-center mb-4">BIENVENIDOS A LA <br> LIGA1 TE APUESTO 2025</h1>
+  <h2 class="text-base lg:text-2xl text-center mb-6">La Liga de Fútbol Profesional de Perú</h2>
+  <img class="w-full rounded-xl aspect-video object-contain mb-6" src="/welcomeImage.png" alt="Imagen de Bienvenida">
+  <p class="text-center text-md lg:text-2xl px-4 lg:px-20 m-3 lg:mb-6">Únete a nosotros y sigue de cerca todas las emociones de la Liga1 2025. ¡No te pierdas ningún partido!</p>
+  <div class="flex justify-center gap-x-8 lg:gap-x-16 mt-6">
+    <a href="https://www.facebook.com/Liga1TeApuesto" target="_blank" class="transition hover:scale-125">
+      <Facebook class="lg:w-24 lg:h-24" />
+    </a>
+    <a href="https://www.instagram.com/liga1teapuesto" target="_blank" class="transition hover:scale-125">
+      <Instagram class="lg:w-24 lg:h-24" />
+    </a>
+    <a href="https://www.youtube.com/@L1MAX_" target="_blank" class="transition hover:scale-125">
+      <Youtube class="lg:w-24 lg:h-24" />
+    </a>
+    <a href="https://x.com/Liga1TeApuesto" target="_blank" class="transition hover:scale-125">
+      <X class="lg:w-24 lg:h-24" />
+    </a>
   </div>
 </section>
