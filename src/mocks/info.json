@@ -107,6 +107,12 @@
       "name": "Ayacucho FC",
       "img": "ayacucho-fc.webp",
       "created_at": 2008
+    },
+    {
+      "id": 19,
+      "name": "Deportivo Binacional",
+      "img": "deportivo-binacional.webp",
+      "created_at": 2010
     }
   ]
 }
